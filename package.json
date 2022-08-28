@@ -9,9 +9,25 @@
   "author": "Noman",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.54.5"
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.54.5",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
   }
 }

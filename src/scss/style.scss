@@ -1,5 +1,10 @@
 @import './base/variables.scss';
+@import './base/buttons.scss';
 body {
     background-color: $bg;
     color: $red;
+}
+
+a {
+    transition: all .5s ease;
 }
